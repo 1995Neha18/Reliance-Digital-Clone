@@ -1,85 +1,70 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-         #middle-section {
-            /* border: 2px solid blueviolet; */
-            width: 100%;
-            height: 400px;
-            margin-top: 116px;
-              }
 
-         #mid {
-            /* border: 2px solid blueviolet; */
-            width: 100%;
-            height: 100%;
-            margin-left: -70px;
-            display: flex;
-            justify-content: space-around;
-       
-         }
-         .partition1 {
-            /* border: 2px solid blueviolet; */
-            width: 48%;
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    #middle-section {
+      /* border: 2px solid blueviolet; */
+      width: 100%;
+      height: 400px;
+      margin-top: 116px;
+    }
 
-         }
+    #mid {
+      /* border: 2px solid blueviolet; */
+      width: 100%;
+      height: 100%;
+      margin-left: -70px;
+      display: flex;
+      justify-content: space-around;
 
-         .partition1>img {
-            width: 900px;
-            height: 100%;
-         }
+    }
 
+    .partition1 {
+      /* border: 2px solid blueviolet; */
+      width: 48%;
 
-    </style>
+    }
 
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="apple-touch-icon"
-      size="180x180"
-      href="/build/client/images/apple-touch-icon.png"
-    />
-    <link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-		/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+    .partition1>img {
+      width: 900px;
+      height: 100%;
+    }
+  </style>
 
-  <body>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="apple-touch-icon" size="180x180" href="/build/client/images/apple-touch-icon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-    <!-- -----------------Navbar Red First Part------------------ -->
+<body>
 
-    <div id="Fixed">
-      <!-- <div id="Nav-Red1"> -->
-        <ul id="Nav-Red1">
-          <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-geo-alt-fill"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
-          />
-        </svg>
-          <li>Find a store</li><span>|</span>
-          <li>Buying Guides</li><span>|</span>
-          <li>Contact Us</li>
-        </ul>    
+  <!-- -----------------Navbar Red First Part------------------ -->
+
+  <div id="Fixed">
+    <!-- <div id="Nav-Red1"> -->
+    <ul id="Nav-Red1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill"
+        viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+      </svg>
+      <li>Find a store</li><span>|</span>
+      <li>Buying Guides</li><span>|</span>
+      <li>Contact Us</li>
+    </ul>
     <!-- </div> -->
 
-      <!-- -----------------Navbar Red Second Part------------------ -->
+    <!-- -----------------Navbar Red Second Part------------------ -->
 
-      <div id="Nav-Red2">
-        <img src="logo1.png" alt="logo" />
-        <!-- <div>
+    <div id="Nav-Red2">
+      <a href="index.html"> <img src="logo1.png" width="33%" id="img-logo" alt="logo" /></a>
+
+      <!-- <div>
           <input
             id="search-bar"
             oninput="Search()"
@@ -87,232 +72,248 @@
             placeholder="Find your favourite products                                                                                                   🔍"/>
         </div> -->
 
-        <div class="suggestion__box" style="background: white;"><input id="suggestionBoxEle" type="text" class="suggestion__input searchPanel__searchBox" placeholder="Find your favorite products" autocomplete="off" value=""><button type="button" class="searchPanel__search" id="RIL_HomeSearchButton"><i class="fa fa-search" style="color: rgb(187, 187, 187);"></i></button></div>
+      <div class="suggestion__box" style="background: white;"><input id="suggestionBoxEle" type="text"
+          class="suggestion__input searchPanel__searchBox" placeholder="Find your favorite products" autocomplete="off"
+          value=""><button type="button" class="searchPanel__search" id="RIL_HomeSearchButton"><i class="fa fa-search"
+            style="color: rgb(187, 187, 187);"></i></button></div>
 
-        <div id="option2">
-          <ul class="opt2">
-            <li>Select your PIN Code</li><span>|</span>
-            <i class='bx bxs-cart header-icon-size' style="padding: 0px 8px 8px 0px;"></i>
-            <li>Cart</li><span>|</span>
-            <i class='bx bxs-user header-icon-size' style="padding: 0px 8px 8px 0px;"></i>
-            <li><a href="./login.html" style="color: white;">Login</a></li>
-          </ul>
-       </div>
-      </div>
-
-      <!-- --------Navbar Blue---------- -->
-
-      <div id="Nav-Blue">
-        <button class="upArrow">MOBILES & TABLETS</button>
-        <button class="upArrow">TELIVISIONS</button>
-        <button class="upArrow">AUDIO</button>
-        <button class="upArrow">HOME APPLIANCES</button>
-        <button class="upArrow">COMPUTERS</button>
-        <button class="upArrow">CAMERAS</button>
-        <button class="upArrow">KITCHEN APPLIANCES</button>
-        <button class="upArrow">PERSONAL CARE</button>
-        <button class="upArrow">ACCESSORIES</button>
+      <div id="option2">
+        <ul class="opt2">
+          <li>Select your PIN Code</li><span>|</span>
+          <i class='bx bxs-cart header-icon-size' style="padding: 0px 8px 8px 0px;"></i>
+          <li>Cart</li><span>|</span>
+          <i class='bx bxs-user header-icon-size' style="padding: 0px 8px 8px 0px;"></i>
+          <li><a href="./login.html" style="color: white;">Login</a></li>
+        </ul>
       </div>
     </div>
 
-      <!-- ------------------Top Two Images Section----------------- -->
-      <div id="middle-section">
-        <div id="mid">
-            <div class="partition1">
-                <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="">
-            </div>
-            <div class="partition2">
-                <!DOCTYPE html>
-<html lang="en">
+    <!-- --------Navbar Blue---------- -->
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Signup & signin</title>
-    <style>
-        body {
-            background: white;
-            color: black;
-            margin: 0;
-        }
-        
-        .login {
-            margin: 50px auto;
-            width: 400px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          
-        }
-        
-        .login form {
-            margin: auto;
-            padding: 22px 22px 22px 22px;
-            width: 100%;
-            height: 250px;
-            border-radius: 5px;
-            background: rgb(249,250,253);
-            border-top: 3px solid rgb(249,250,253);
-            border-bottom: 3px solid rgb(249,250,253);
-            border-radius: 10px;
-        }
-        
-        .login form input {
-            background-color: white;
-            color: black;
-            margin-bottom: 1em;
-            padding: 12px;
-            width: 90%;
-            height: 20px;
-            border-radius: 5px;
-            font-size: 15px;
-        }
-        
-        .login form input[type="submit"] {
-            background: rgb(228,37,41);
-            border: 0;
-            width: 97%;
-            height: 45px;
-            border-radius: 3px;
-            color: white;
-            cursor: pointer;
-        }
-        h2 {
-            font-size: 24px;
-            font-family: sans-serif;
-        }
-      
-    </style>
-</head>
-
-<body>
-  
-    <div class="login">
-        <form name="form-login">
-            <h2>Login/Register</h2>
-             <br>
-            <label for="phone No."></label>
-            <input type="email" id="userName" placeholder="Enter Mobile Number" required />
-             <br>
-                 
-            <input id="Proceed_btn" type="submit" value="PROCEED" onclick="check()" />
-        </form>
+    <div id="Nav-Blue">
+      <button class="upArrow">MOBILES & TABLETS</button>
+      <button class="upArrow">TELIVISIONS</button>
+      <button class="upArrow">AUDIO</button>
+      <button class="upArrow">HOME APPLIANCES</button>
+      <button class="upArrow">COMPUTERS</button>
+      <button class="upArrow">CAMERAS</button>
+      <button class="upArrow">KITCHEN APPLIANCES</button>
+      <button class="upArrow">PERSONAL CARE</button>
+      <button class="upArrow">ACCESSORIES</button>
     </div>
-</body>
+  </div>
 
-</html>
+  <!-- ------------------Top Two Images Section----------------- -->
+  <div id="middle-section">
+    <div id="mid">
+      <div class="partition1">
+        <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="">
+      </div>
+      <div class="partition2">
+        <!DOCTYPE html>
+        <html lang="en">
 
-<script>
-    function store() {
-        var name = document.getElementById("name");
-        var pw = document.getElementById("pw");
+        <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Signup & signin</title>
+          <style>
+            body {
+              background: white;
+              color: black;
+              margin: 0;
+            }
 
-        if (name.value.length == 0) {
-            alert("Please fill in email");
-        } else if (pw.value.length == 0) {
-            alert("Please fill in password");
-        } else if (pw.value.length < 8) {
-            alert("Fill atleast 8 chars.");
-        } else {
-            localStorage.setItem("name", name.value);
-            localStorage.setItem("pw", pw.value);
-        }
-    }
+            .login {
+              margin: 50px auto;
+              width: 400px;
+              box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
-    function check() {
-        var userName = document.getElementById("userName") ? document.getElementById("userName").value : null;
+            }
 
-        if (userName) {
-            window.location = "./Register.html";
-        } else {
-            alert("Please Enter Your Phone No.");
-        }
-    }
-</script>
-            </div>
+            .login form {
+              margin: auto;
+              padding: 22px 22px 22px 22px;
+              width: 100%;
+              height: 250px;
+              border-radius: 5px;
+              background: rgb(249, 250, 253);
+              border-top: 3px solid rgb(249, 250, 253);
+              border-bottom: 3px solid rgb(249, 250, 253);
+              border-radius: 10px;
+            }
+
+            .login form input {
+              background-color: white;
+              color: black;
+              margin-bottom: 1em;
+              padding: 12px;
+              width: 90%;
+              height: 20px;
+              border-radius: 5px;
+              font-size: 15px;
+            }
+
+            .login form input[type="submit"] {
+              background: rgb(228, 37, 41);
+              border: 0;
+              width: 97%;
+              height: 45px;
+              border-radius: 3px;
+              color: white;
+              cursor: pointer;
+            }
+
+            h2 {
+              font-size: 24px;
+              font-family: sans-serif;
+            }
+          </style>
+        </head>
+
+        <body>
+
+          <div class="login">
+            <form name="form-login">
+              <h2>Login/Register</h2>
+              <br>
+              <label for="phone No."></label>
+              <input type="email" id="userName" placeholder="Enter Mobile Number" required />
+              <br>
+
+              <input id="Proceed_btn" type="submit" value="PROCEED" onclick="check()" />
+            </form>
+          </div>
+        </body>
+
+        </html>
+
+        <script>
+
+          document.querySelector("#HomePage").addEventListener("click", () => {
+            window.location.href = "index.html"
+          })
+
+
+          function store() {
+            var name = document.getElementById("name");
+            var pw = document.getElementById("pw");
+
+            if (name.value.length == 0) {
+              alert("Please fill in email");
+            } else if (pw.value.length == 0) {
+              alert("Please fill in password");
+            } else if (pw.value.length < 8) {
+              alert("Fill atleast 8 chars.");
+            } else {
+              localStorage.setItem("name", name.value);
+              localStorage.setItem("pw", pw.value);
+            }
+          }
+
+          function check() {
+            var userName = document.getElementById("userName") ? document.getElementById("userName").value : null;
+
+            if (userName) {
+              window.location = "./Register.html";
+            } else {
+              alert("Please Enter Your Phone No.");
+            }
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------------- Footer --------------------------- -->
+
+  <div id="footer">
+
+    <div id="footer-top">
+      <div class="one">
+        <h2>Product & Categories</h2>
+        <h3>Smartphones</h3>
+        <h3>Laptops</h3>
+        <h3>Dslr Cameras</h3>
+        <h3>Televisions</h3>
+        <h3>Air Conditioners</h3>
+        <h3>Refrigerators</h3>
+        <h3>Kichen Appliances</h3>
+        <h3>Accessories</h3>
+        <h3>Personal Care & Grooming</h3>
+      </div>
+
+      <div class="one">
+        <h2>SITE INFO</h2>
+        <h3>About Reliance Digital</h3>
+        <h3>resQ Services</h3>
+        <h3>Site Map</h3>
+        <h3>Gift Cards</h3>
+        <h3>Corporate Enquires</h3>
+        <h3>Contact Us</h3>
+      </div>
+
+      <div class="one">
+        <h2>RESOURCE CENTRE</h2>
+        <h3>Product Reviews</h3>
+        <h3>Buying Guides</h3>
+        <h3>How Tos</h3>
+        <h3>Featured Stories</h3>
+        <h3>Event & Happenings</h3>
+      </div>
+
+      <div class="one">
+        <h2>POLICIES</h2>
+        <h3>Terms of Use</h3>
+        <h3>FAQS</h3>
+        <h3>Cancellation and Return Policy</h3>
+        <h3>Pricing and Payments Policy</h3>
+        <h3>Shippping and Delivery Policy</h3>
+        <h3>Privacy Policy</h3>
+        <h3>E-waste Recycling Policy</h3>
+        <h3>EMI and Additional Cashback T&C</h3>
+        <h3>RelianceOne Loyality Program</h3>
+
+      </div>
+    </div>
+
+    <div id="footer-btm1">
+      <div class="two">
+        <h2>FOLLOW US</h2>
+      </div>
+      <div class="three">
+        <h2>EXPERIENCE RELIANCE DIGITAL APP ON MOBILE</h2>
+      </div>
+    </div>
+
+    <div id="footer-btm2">
+      <div class="four">
+        <i class='bx bxl-facebook-square'></i>
+        <i class='bx bxl-twitter'></i>
+        <i class='bx bxl-youtube'></i>
+      </div>
+
+      <div class="five">
+        <div class="apple"><img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt="">
         </div>
-     </div>
-
-     <!-- --------------------------------- Footer --------------------------- -->
-
-     <div id="footer">
-         
-      <div id="footer-top">
-          <div class="one">
-            <h2>Product & Categories</h2>
-            <h3>Smartphones</h3>
-            <h3>Laptops</h3>
-            <h3>Dslr Cameras</h3>
-            <h3>Televisions</h3>
-            <h3>Air Conditioners</h3>
-            <h3>Refrigerators</h3>
-            <h3>Kichen Appliances</h3>
-            <h3>Accessories</h3>
-            <h3>Personal Care & Grooming</h3>
-          </div>
-          
-          <div class="one">
-            <h2>SITE INFO</h2>
-            <h3>About Reliance Digital</h3>
-            <h3>resQ Services</h3>
-            <h3>Site Map</h3>
-            <h3>Gift Cards</h3>
-            <h3>Corporate Enquires</h3>
-            <h3>Contact Us</h3>
-          </div>
-
-          <div class="one">
-            <h2>RESOURCE CENTRE</h2>
-            <h3>Product Reviews</h3>
-            <h3>Buying Guides</h3>
-            <h3>How Tos</h3>
-            <h3>Featured Stories</h3>
-            <h3>Event & Happenings</h3>
-          </div>
-
-          <div class="one">
-            <h2>POLICIES</h2>
-            <h3>Terms of Use</h3>
-            <h3>FAQS</h3>
-            <h3>Cancellation and Return Policy</h3>
-            <h3>Pricing and Payments Policy</h3>
-            <h3>Shippping and Delivery Policy</h3>
-            <h3>Privacy Policy</h3>
-            <h3>E-waste Recycling Policy</h3>
-            <h3>EMI and Additional Cashback T&C</h3>
-            <h3>RelianceOne Loyality Program</h3>
-             
-           </div>
-          </div>
-        
-        <div id="footer-btm1">
-              <div class="two">
-                  <h2>FOLLOW US</h2>
-              </div>
-            <div class="three"><h2>EXPERIENCE RELIANCE DIGITAL APP ON MOBILE</h2></div>
+        <div class="apple"><img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt="">
         </div>
+      </div>
+    </div>
 
-          <div id="footer-btm2">
-            <div class="four">
-              <i class='bx bxl-facebook-square'></i>
-              <i class='bx bxl-twitter' ></i>
-              <i class='bx bxl-youtube'></i>
-            </div>
-              
-            <div class="five">
-                <div class="apple"><img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt=""></div>
-                <div class="apple"><img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt=""></div>
-            </div>
-          </div> 
-
-         </div>
+  </div>
 
 
-         <div id="footer-btm3">
-          <h2>Disclaimer</h2>
-          
-          <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive of taxes. Product colours & images are only for illustration and they may not exactly match with the actual product. Product specs are subject to change & may vary from actual product. While every care is taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</p>
-          <br>
-          
-          
-          <h6> © 2022 Reliance Digital. All Rights Reserved.</h6>
-         </div>
+  <div id="footer-btm3">
+    <h2>Disclaimer</h2>
+
+    <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive of
+      taxes. Product colours & images are only for illustration and they may not exactly match with the actual product.
+      Product specs are subject to change & may vary from actual product. While every care is taken to avoid
+      inaccuracies in content, these are provided as is, without warranty of any kind.</p>
+    <br>
+
+
+    <h6> © 2022 Reliance Digital. All Rights Reserved.</h6>
+  </div>

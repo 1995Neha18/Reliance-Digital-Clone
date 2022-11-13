@@ -15,16 +15,16 @@
   font-weight: bold;
   color: white;
   display: flex;
-    list-style: none;
-    padding: 4px 16px;
-    margin-right: 20px;
+  list-style: none;
+  padding: 4px 16px;
+  margin-right: 20px;
 }
 
 .padding {
   padding-right: 50px;
 }
 
-.header-icon-size{
+.header-icon-size {
   font-size: 24px;
 }
 span {
@@ -37,7 +37,6 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 #Nav-Red2 > img {
   width: 8%;
@@ -70,10 +69,10 @@ span {
 .opt2 > li > href {
   color: white;
 }
- href {
-   color: white;
-   text-decoration: none;
- }
+href {
+  color: white;
+  text-decoration: none;
+}
 
 #search-bar {
   width: 550px;
@@ -84,7 +83,7 @@ span {
   border: none;
 }
 #Nav-Red2 > input {
-   font-size: larger;
+  font-size: larger;
 }
 #Nav-Blue {
   /* border: 2px solid black; */
@@ -97,14 +96,13 @@ span {
   color: white;
   font-size: 14px;
   font-weight: bold;
-  
 }
 
 #Fixed {
   position: fixed;
   top: 0;
   overflow: hidden;
-  width:100%;
+  width: 100%;
   z-index: 1;
   margin-right: 30px;
 }
@@ -442,7 +440,6 @@ h2 {
   width: 100%;
   height: 610px;
   background-color: #003380;
- 
 }
 #footer-top {
   /* border: 2px solid red; */
@@ -452,31 +449,28 @@ h2 {
   height: 450px;
   display: flex;
   justify-content: space-between;
-  
 }
 .one {
   /* border: 2px solid red; */
   width: 20%;
   height: 100%;
   text-align: left;
- 
 }
-.one>h2 {
-   font-weight: bold;
-   color: white;
-   font-size: 18px;
-   padding-bottom: 20px;
-   
+.one > h2 {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  padding-bottom: 20px;
 }
-.one>h3 {
+.one > h3 {
   font-weight: lighter;
   color: white;
   padding-bottom: 20px;
-  padding-left: 25px; 
+  padding-left: 25px;
   cursor: pointer;
   font-size: 16px;
 }
-.one>h3:hover {
+.one > h3:hover {
   color: #ddd;
 }
 
@@ -495,7 +489,7 @@ h2 {
   width: 60%;
   display: flex;
   justify-content: space-between;
-} 
+}
 .two > h2 {
   font-weight: bold;
   color: white;
@@ -510,7 +504,7 @@ h2 {
 }
 
 #ft-image {
-   margin-top: -140px;
+  margin-top: -140px;
 }
 
 #footer-btm2 {
@@ -522,57 +516,56 @@ h2 {
   justify-content: space-between;
 }
 .four {
-   color: white;
-   font-size: 22px;
-   margin-left: 25px;
+  color: white;
+  font-size: 22px;
+  margin-left: 25px;
 }
 .five {
-   /* border: 2px solid white; */
-   height: 60px;
-   width: 35%;
-   margin-right: 175px;
-   display: flex;
-   justify-content: space-between;
+  /* border: 2px solid white; */
+  height: 60px;
+  width: 35%;
+  margin-right: 175px;
+  display: flex;
+  justify-content: space-between;
 }
 .apple {
   /* border: 2px solid white; */
   height: 85%;
   width: 47%;
 }
-.apple>img {
-   width: 100%;
-   height: 100%;
-   margin-right: 8px;
+.apple > img {
+  width: 100%;
+  height: 100%;
+  margin-right: 8px;
 }
 #footer-btm3 {
-   /* border: 2px solid red; */
-   width: 100%;
-   height: 170px;
-   background-color:rgb(10,36,74);
-   color: white;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 170px;
+  background-color: rgb(10, 36, 74);
+  color: white;
 }
-#footer-btm3>h2 {
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-   
-    padding-bottom: 30px;
+#footer-btm3 > h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+
+  padding-bottom: 30px;
 }
-#footer-btm3>p {
+#footer-btm3 > p {
   font-size: 12px;
-   width: 1150px;
+  width: 1150px;
   text-align: center;
   margin-left: 200px;
-  
 }
 
-#footer-btm3>h6 {
+#footer-btm3 > h6 {
   font-size: 14px;
   font-weight: lighter;
   text-align: center;
   padding-top: 20px;
   padding: 10px;
-    border-top: solid 0.1px;
+  border-top: solid 0.1px;
 }
 .suggestion__box {
   border-bottom: 1px solid #ccc;
@@ -594,7 +587,7 @@ h2 {
 
 .searchPanel__search {
   background-color: #fff;
-  border: 1px solid rgba(0,0,0,0);
+  border: 1px solid rgba(0, 0, 0, 0);
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -604,9 +597,9 @@ h2 {
   position: absolute;
   right: 10px;
   top: 7px;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .fa {
@@ -617,7 +610,12 @@ h2 {
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   font-size: 18px;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#img-logo {
+  margin-left: 100px;
+  margin-bottom: 50px;
 }
