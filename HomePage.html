@@ -15,6 +15,7 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
 		/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -24,7 +25,8 @@
     <div id="Fixed">
       <!-- <div id="Nav-Red1"> -->
         <ul id="Nav-Red1">
-          <svg
+          <a href="GoogleNavgtn.html" style="color:white ;">
+            <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
           height="16"
@@ -36,6 +38,8 @@
             d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
           />
         </svg>
+          </a>
+          
           <li>Find a store</li><span>|</span>
           <li>Buying Guides</li><span>|</span>
           <li>Contact Us</li>
@@ -46,13 +50,15 @@
 
       <div id="Nav-Red2">
         <img src="logo1.png" alt="logo" />
-        <div>
+        <!-- <div>
           <input
             id="search-bar"
             oninput="Search()"
             type="text"
             placeholder="Find your favourite products                                                                                                   🔍"/>
-        </div>
+        </div> -->
+
+        <div class="suggestion__box" style="background: white;"><input id="suggestionBoxEle" type="text" class="suggestion__input searchPanel__searchBox" placeholder="Find your favorite products" autocomplete="off" value=""><button type="button" class="searchPanel__search" id="RIL_HomeSearchButton"><i class="fa fa-search" style="color: rgb(187, 187, 187);"></i></button></div>
 
         <div id="option2">
           <ul class="opt2">
@@ -60,7 +66,7 @@
             <i class='bx bxs-cart header-icon-size' style="padding: 0px 8px 8px 0px;"></i>
             <li>Cart</li><span>|</span>
             <i class='bx bxs-user header-icon-size' style="padding: 0px 8px 8px 0px;"></i>
-            <li><a href="./login.html" style="color: white;">Login</a></li>
+            <li><a href="./login.html" style="color: white;text-decoration: none;">Login</a></li>
           </ul>
        </div>
       </div>
@@ -512,48 +518,6 @@
           <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive of taxes. Product colours & images are only for illustration and they may not exactly match with the actual product. Product specs are subject to change & may vary from actual product. While every care is taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</p>
           <br>
           
-          <hr>
+          
           <h6> © 2022 Reliance Digital. All Rights Reserved.</h6>
          </div>
-<!--        
-        <div class="footer__disclaimer">
-          <div class="box hidden__xs">
-            <div class="blk">
-              <div class="blk__xs__12">
-                <div class="title-ft">
-                  <div>
-                    <p>
-                      <a class="footer-titles"
-                        style="box-sizing: border-box; line-height: 1.8em; color: rgb(29, 29, 29); border-bottom: 1px solid rgb(255, 255, 255); transition: all 0.2s ease-in; cursor: text; display: inline-block; font-size: 12.8px; font-weight: bold; font-family: OpenSans, Arial, Helvetica, sans-serif;">
-                        <span style="font-size: small;">Disclaimer</span>
-                      </a>
-                    </p>
-                    <p>
-                      <span style="font-size: small;">
-                        <span lang="EN-US" style="font-family: OpenSans, Arial, Helvetica, sans-serif;">Product prices, offers
-                          and availability are subject to change from time to time. All prices are inclusive of taxes. Product
-                          colours &amp; images are only for illustration and they may not exactly match with the actual product.
-                          Product specs are subject to change &amp; may vary from actual product. While every care is taken to
-                          avoid inaccuracies in content, these are provided as is, without warranty of any kind.</span>
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer__copyright">
-            <div class="box">
-              <div>
-                <p>
-                  <span style="font-size: small;">&nbsp;
-                    <span style="font-family: OpenSans, Arial, Helvetica, sans-serif;">© 2022 Reliance Digital. All Rights
-                      Reserved.</span>
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-  </body>
-</html>  -->

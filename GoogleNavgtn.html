@@ -7,32 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-         #middle-section {
-            /* border: 2px solid blueviolet; */
-            width: 100%;
-            height: 400px;
-            margin-top: 116px;
-              }
+         #mid-section {
+          margin-top: 144px;
+    margin-left: 69px;
+            
+        }
 
-         #mid {
-            /* border: 2px solid blueviolet; */
-            width: 100%;
-            height: 100%;
-            margin-left: -70px;
-            display: flex;
-            justify-content: space-around;
-       
-         }
-         .partition1 {
-            /* border: 2px solid blueviolet; */
-            width: 48%;
-
-         }
-
-         .partition1>img {
-            width: 900px;
-            height: 100%;
-         }
+        
 
 
     </style>
@@ -116,121 +97,9 @@
     </div>
 
       <!-- ------------------Top Two Images Section----------------- -->
-      <div id="middle-section">
-        <div id="mid">
-            <div class="partition1">
-                <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="">
-            </div>
-            <div class="partition2">
-                <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Signup & signin</title>
-    <style>
-        body {
-            background: white;
-            color: black;
-            margin: 0;
-        }
-        
-        .login {
-            margin: 50px auto;
-            width: 400px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          
-        }
-        
-        .login form {
-            margin: auto;
-            padding: 22px 22px 22px 22px;
-            width: 100%;
-            height: 250px;
-            border-radius: 5px;
-            background: rgb(249,250,253);
-            border-top: 3px solid rgb(249,250,253);
-            border-bottom: 3px solid rgb(249,250,253);
-            border-radius: 10px;
-        }
-        
-        .login form input {
-            background-color: white;
-            color: black;
-            margin-bottom: 1em;
-            padding: 12px;
-            width: 90%;
-            height: 20px;
-            border-radius: 5px;
-            font-size: 15px;
-        }
-        
-        .login form input[type="submit"] {
-            background: rgb(228,37,41);
-            border: 0;
-            width: 97%;
-            height: 45px;
-            border-radius: 3px;
-            color: white;
-            cursor: pointer;
-        }
-        h2 {
-            font-size: 24px;
-            font-family: sans-serif;
-        }
-      
-    </style>
-</head>
-
-<body>
-  
-    <div class="login">
-        <form name="form-login">
-            <h2>Login/Register</h2>
-             <br>
-            <label for="phone No."></label>
-            <input type="email" id="userName" placeholder="Enter Mobile Number" required />
-             <br>
-                 
-            <input id="Proceed_btn" type="submit" value="PROCEED" onclick="check()" />
-        </form>
-    </div>
-</body>
-
-</html>
-
-<script>
-    function store() {
-        var name = document.getElementById("name");
-        var pw = document.getElementById("pw");
-
-        if (name.value.length == 0) {
-            alert("Please fill in email");
-        } else if (pw.value.length == 0) {
-            alert("Please fill in password");
-        } else if (pw.value.length < 8) {
-            alert("Fill atleast 8 chars.");
-        } else {
-            localStorage.setItem("name", name.value);
-            localStorage.setItem("pw", pw.value);
-        }
-    }
-
-    function check() {
-        var userName = document.getElementById("userName") ? document.getElementById("userName").value : null;
-
-        if (userName) {
-            window.location = "./Register.html";
-        } else {
-            alert("Please Enter Your Phone No.");
-        }
-    }
-</script>
-            </div>
-        </div>
-     </div>
+         <div id="mid-section">
+           <img src="./Image/location-page.png" alt="">
+         </div>
 
      <!-- --------------------------------- Footer --------------------------- -->
 

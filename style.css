@@ -17,6 +17,7 @@
   display: flex;
     list-style: none;
     padding: 4px 16px;
+    margin-right: 20px;
 }
 
 .padding {
@@ -58,11 +59,12 @@ span {
   display: flex;
   list-style: none;
   font-size: 14px;
-  
+  margin-right: 10px;
 }
 
 .opt2 > ul {
   font-size: 14px;
+  margin-right: 10px;
 }
 
 .opt2 > li > href {
@@ -70,6 +72,7 @@ span {
 }
  href {
    color: white;
+   text-decoration: none;
  }
 
 #search-bar {
@@ -94,6 +97,7 @@ span {
   color: white;
   font-size: 14px;
   font-weight: bold;
+  
 }
 
 #Fixed {
@@ -102,6 +106,7 @@ span {
   overflow: hidden;
   width:100%;
   z-index: 1;
+  margin-right: 30px;
 }
 
 #Nav-Blue > button {
@@ -560,12 +565,59 @@ h2 {
   margin-left: 200px;
   
 }
- hr {
-  
- }
+
 #footer-btm3>h6 {
   font-size: 14px;
   font-weight: lighter;
   text-align: center;
   padding-top: 20px;
+  padding: 10px;
+    border-top: solid 0.1px;
+}
+.suggestion__box {
+  border-bottom: 1px solid #ccc;
+  border-radius: 2em;
+  position: relative;
+  width: 33%;
+  margin-bottom: 25px;
+}
+.searchPanel__searchBox {
+  border: 0;
+  border-radius: 2px 0 0 2px;
+  border-radius: 2em;
+  font-size: 14px;
+  height: 36px;
+  outline: 0 none;
+  padding: 0 16px;
+  width: 94%;
+}
+
+.searchPanel__search {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0);
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-left: 0;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+.fa {
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  font-size: 18px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
